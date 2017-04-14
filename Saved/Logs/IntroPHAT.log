@@ -1,0 +1,599 @@
+﻿Log file open, 03/28/17 17:40:25
+LogInit:Display: Running engine for game: IntroPHAT
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(623042209) SRandInit(623042209).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.091220
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.29-00.40.26:631][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.29-00.40.26:631][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.29-00.40.26:647][  0]LogInit: Computer: ULTIMATESKIBUM
+[2017.03.29-00.40.26:647][  0]LogInit: User: Liam
+[2017.03.29-00.40.26:647][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.29-00.40.26:647][  0]LogInit: High frequency timer resolution =3.906387 MHz
+[2017.03.29-00.40.26:647][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.03.29-00.40.26:647][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.29-00.40.26:647][  0]LogMemory: Process Physical Memory: 263.55 MB used, 263.55 MB peak
+[2017.03.29-00.40.26:647][  0]LogMemory: Process Virtual Memory: 262.71 MB used, 262.71 MB peak
+[2017.03.29-00.40.26:647][  0]LogMemory: Physical Memory: 4114.48 MB used,  4024.52 MB free, 8139.00 MB total
+[2017.03.29-00.40.26:647][  0]LogMemory: Virtual Memory: 645.13 MB used,  4024.52 MB free, 134217728.00 MB total
+[2017.03.29-00.40.26:776][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.29-00.40.27:542][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.29-00.40.28:050][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2017.03.29-00.40.28:050][  0]LogD3D11RHI:       4063/0/4069 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.29-00.40.28:052][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.29-00.40.28:052][  0]LogD3D11RHI:       0/0/4069 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.29-00.40.28:052][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.29-00.40.28:059][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.29-00.40.28:059][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.29-00.40.28:059][  0]LogWindows: EnumDisplayDevices:
+[2017.03.29-00.40.28:059][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2017.03.29-00.40.28:060][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.03.29-00.40.28:060][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.03.29-00.40.28:060][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.03.29-00.40.28:060][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.29-00.40.28:060][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2017.03.29-00.40.28:060][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.03.29-00.40.28:060][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.03.29-00.40.28:060][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.29-00.40.28:494][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.03.29-00.40.28:494][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.29-00.40.28:543][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.03.29-00.40.28:593][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Intermediate/Shaders/WorkingDirectory/6556/).
+[2017.03.29-00.40.28:593][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Liam/AppData/Local/Temp/UnrealShaderWorkingDir/4203E6FA40A5C48B2CDC2EBB0B4D6D4A/'.
+[2017.03.29-00.40.28:593][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.29-00.40.30:160][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.29-00.40.30:249][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.29-00.40.30:337][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.29-00.40.30:425][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.29-00.40.30:514][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.29-00.40.30:603][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.29-00.40.30:692][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.29-00.40.30:780][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.29-00.40.30:853][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.29-00.40.30:939][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.29-00.40.31:025][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.29-00.40.31:113][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.29-00.40.31:200][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.29-00.40.31:286][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.29-00.40.31:373][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.29-00.40.31:546][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.29-00.40.31:546][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.29-00.40.31:609][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.29-00.40.31:752][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.29-00.40.31:808][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.29-00.40.31:893][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.29-00.40.31:978][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.29-00.40.32:064][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.29-00.40.32:150][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.29-00.40.32:150][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.29-00.40.32:897][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.29-00.40.33:006][  0]LogDerivedDataCache: Loaded boot cache 0.11s 50MB C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.29-00.40.33:006][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.29-00.40.33:006][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.29-00.40.33:006][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.29-00.40.33:006][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.29-00.40.33:006][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.29-00.40.33:028][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.29-00.40.33:040][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Liam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.29-00.40.33:055][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.29-00.40.33:055][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.29-00.40.33:055][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.29-00.40.33:443][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.29-00.40.33:446][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.29-00.40.33:745][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.29-00.40.33:818][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.29-00.40.33:899][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.29-00.40.33:899][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.29-00.40.33:899][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.29-00.40.34:675][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: introphat, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 755543801
+[2017.03.29-00.40.34:738][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2017.03.29-00.40.34:818][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.039888 seconds
+[2017.03.29-00.40.34:824][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.03.29-00.40.34:824][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.03.29-00.40.34:824][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.29-00.40.34:933][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.29-00.40.37:386][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.29-00.40.37:448][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.29-00.40.38:144][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.29-00.40.38:738][  0]SourceControl: Info Source control is disabled
+[2017.03.29-00.40.38:739][  0]SourceControl: Info Source control is disabled
+[2017.03.29-00.40.38:818][  0]SourceControl: Info Source control is disabled
+[2017.03.29-00.40.38:896][  0]SourceControl: Info Source control is disabled
+[2017.03.29-00.40.40:943][  0]LogEngine: Initializing Engine...
+[2017.03.29-00.40.40:943][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.29-00.40.41:274][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.29-00.40.41:304][  0]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.29-00.40.41:339][  0]LogInit: FAudioDevice initialized.
+[2017.03.29-00.40.41:396][  0]LogDerivedDataCache: Saved boot cache 0.06s 50MB C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.29-00.40.41:420][  0]LogInit: Texture streaming: Enabled
+[2017.03.29-00.40.41:592][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.29-00.40.41:592][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={AFFC4F05-4CED-2908-98CE-D58E3AD0A95F}
+[2017.03.29-00.40.41:737][  0]LogInit: Transaction tracking system initialized
+[2017.03.29-00.40.42:311][  0]BlueprintLog: New page: Editor Load
+[2017.03.29-00.40.43:790][  0]LocalizationService: Info Localization service is disabled
+[2017.03.29-00.40.44:892][  0]LogConsoleResponse:Display: 
+[2017.03.29-00.40.45:052][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.29-00.40.45:052][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.29-00.40.45:154][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/' took 0.02s
+[2017.03.29-00.40.46:784][  0]SourceControl: Info Source control is disabled
+[2017.03.29-00.40.46:784][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.29-00.40.46:785][  0]LightingResults: New page: Lighting Build
+[2017.03.29-00.40.46:851][  0]MapCheck: New page: Map Check
+[2017.03.29-00.40.46:851][  0]LightingResults: New page: Lighting Build
+[2017.03.29-00.40.47:387][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.29-00.40.47:423][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.29-00.40.47:423][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.29-00.40.47:489][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.853ms to complete.
+[2017.03.29-00.40.47:489][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.705
+[2017.03.29-00.40.47:559][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.29-00.40.47:710][  0]LogCollectionManager: Loaded 0 collections in 0.002310 seconds
+[2017.03.29-00.40.47:817][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Collections/' took 0.01s
+[2017.03.29-00.40.47:817][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/Developers/Liam/Collections/' took 0.01s
+[2017.03.29-00.40.47:817][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/Collections/' took 0.01s
+[2017.03.29-00.40.47:817][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.29-00.40.47:831][  0]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 2245 classes and 453 folders.
+[2017.03.29-00.40.47:835][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.29-00.40.47:835][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.29-00.40.47:941][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.03.29-00.40.48:002][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.03.29-00.40.48:071][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.03.29-00.40.48:145][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.29-00.40.48:154][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.29-00.40.48:248][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.03.29-00.40.48:249][  0]LogLoad: (Engine Initialization) Total time: 24.45 seconds
+[2017.03.29-00.40.48:249][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.21 seconds
+[2017.03.29-00.40.48:249][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.29-00.40.48:249][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.29-00.40.48:258][  0]LogOcInput: OculusInput pre-init called
+[2017.03.29-00.40.48:280][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.03.29-00.40.48:281][  0]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.29-00.40.48:287][  0]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.29-00.40.48:293][  0]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.29-00.40.48:428][  0]LogSlate: Took 0.000367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.29-00.40.48:496][  0]LogRenderer: Reallocating scene render targets to support 1164x580 NumSamples 1 (Frame:2).
+[2017.03.29-00.40.48:602][  1]LogAssetRegistry: Asset discovery search completed in 13.8862 seconds
+[2017.03.29-00.40.48:602][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000008 seconds (found 0 objects)
+[2017.03.29-00.40.48:602][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2017.03.29-00.40.49:282][ 65]LogSlate: Took 0.000366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.29-00.41.06:774][ 69]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.29-00.41.06:855][ 69]LogContentBrowser: Native class hierarchy updated for 'PhAT' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.03.29-00.41.07:054][ 70]LogRenderer: Reallocating scene render targets to support 1164x916 NumSamples 1 (Frame:1738).
+[2017.03.29-00.41.48:374][130]LogSavePackage: Save=9.72ms
+[2017.03.29-00.41.48:375][130]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/SK_Mannequin_Physics4383590E480F4C4F2D1CA98A642F1DD1.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/Mannequin/Character/Mesh/SK_Mannequin_Physics.uasset'
+[2017.03.29-00.41.48:378][130]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/Mannequin/Character/Mesh/SK_Mannequin_Physics.uasset
+[2017.03.29-00.42.41:814][ 51]Cmd: TRANSACTION UNDO
+[2017.03.29-00.42.41:814][ 51]LogEditorTransaction: Undo Create Or Convert Constraint
+[2017.03.29-00.44.16:573][ 65]PIE:Warning: Warning None.PhATEdSkeletalMeshComponent_0 SK_Mannequin has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.03.29-01.04.18:720][834]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.021
+[2017.03.29-01.04.18:722][834]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics] ([1] browsable assets)...
+[2017.03.29-01.04.18:722][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics]
+[2017.03.29-01.04.18:740][834]LogSavePackage: Save=9.97ms
+[2017.03.29-01.04.18:740][834]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/SK_Mannequin_Physics_Auto1C2EF192344A46A4A00F0A3A742D32D48.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto1.uasset'
+[2017.03.29-01.04.18:742][834]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto1.uasset
+[2017.03.29-01.04.18:742][834]LogFileHelpers: Auto-saving content packages took 0.021
+[2017.03.29-01.14.35:969][ 28]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.016
+[2017.03.29-01.14.35:971][ 28]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics] ([1] browsable assets)...
+[2017.03.29-01.14.35:971][ 28]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics]
+[2017.03.29-01.14.35:990][ 28]LogSavePackage: Save=10.72ms
+[2017.03.29-01.14.35:990][ 28]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/SK_Mannequin_Physics_Auto2576DAF7C4EAA26CD2203BC9D4F0042BB.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto2.uasset'
+[2017.03.29-01.14.35:991][ 28]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto2.uasset
+[2017.03.29-01.14.35:991][ 28]LogFileHelpers: Auto-saving content packages took 0.021
+[2017.03.29-01.24.36:076][600]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.015
+[2017.03.29-01.24.36:078][600]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics] ([1] browsable assets)...
+[2017.03.29-01.24.36:078][600]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics]
+[2017.03.29-01.24.36:096][600]LogSavePackage: Save=10.06ms
+[2017.03.29-01.24.36:096][600]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/SK_Mannequin_Physics_Auto32A83AFFD4A5BE8C9827A9292A1BC16D8.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto3.uasset'
+[2017.03.29-01.24.36:098][600]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto3.uasset
+[2017.03.29-01.24.36:098][600]LogFileHelpers: Auto-saving content packages took 0.021
+[2017.03.29-01.28.37:485][646]Cmd: TRANSACTION UNDO
+[2017.03.29-01.28.37:485][646]LogEditorTransaction: Undo Move Constraint
+[2017.03.29-01.29.01:480][364]Cmd: TRANSACTION UNDO
+[2017.03.29-01.29.01:480][364]LogEditorTransaction: Undo Move Constraint
+[2017.03.29-01.39.42:030][680]LogSavePackage: Save=11.58ms
+[2017.03.29-01.39.42:030][680]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/SK_Mannequin_Physics1E5B71344BFB831CC51CA8935607CC2A.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/Mannequin/Character/Mesh/SK_Mannequin_Physics.uasset'
+[2017.03.29-01.39.42:034][680]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/Mannequin/Character/Mesh/SK_Mannequin_Physics.uasset
+[2017.03.29-01.47.50:330][234]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.017
+[2017.03.29-01.47.50:333][234]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics] ([1] browsable assets)...
+[2017.03.29-01.47.50:333][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics]
+[2017.03.29-01.47.50:365][234]LogSavePackage: Save=21.75ms
+[2017.03.29-01.47.50:365][234]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/SK_Mannequin_Physics_Auto40A3048A14AD0715A02F5EAA88A0E49F6.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto4.uasset'
+[2017.03.29-01.47.50:366][234]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto4.uasset
+[2017.03.29-01.47.50:366][234]LogFileHelpers: Auto-saving content packages took 0.034
+[2017.03.29-01.54.13:221][ 49]Cmd: TRANSACTION UNDO
+[2017.03.29-01.54.13:221][ 49]LogEditorTransaction: Undo Move Constraint
+[2017.03.29-01.59.28:835][988]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.014
+[2017.03.29-01.59.28:837][988]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics] ([1] browsable assets)...
+[2017.03.29-01.59.28:837][988]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics]
+[2017.03.29-01.59.28:858][988]LogSavePackage: Save=12.09ms
+[2017.03.29-01.59.28:858][988]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/SK_Mannequin_Physics_Auto58416B4A1442E675262E23D876EC6E3B3.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto5.uasset'
+[2017.03.29-01.59.28:860][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto5.uasset
+[2017.03.29-01.59.28:860][988]LogFileHelpers: Auto-saving content packages took 0.023
+[2017.03.29-02.03.36:682][ 86]Cmd: TRANSACTION UNDO
+[2017.03.29-02.03.36:682][ 86]LogEditorTransaction: Undo Move Constraint
+[2017.03.29-02.03.40:401][324]Cmd: TRANSACTION UNDO
+[2017.03.29-02.03.40:401][324]LogEditorTransaction: Undo Move Constraint
+[2017.03.29-02.03.41:021][358]Cmd: TRANSACTION UNDO
+[2017.03.29-02.03.41:021][358]LogEditorTransaction: Undo Move Constraint
+[2017.03.29-02.03.41:841][414]Cmd: TRANSACTION UNDO
+[2017.03.29-02.03.41:841][414]LogEditorTransaction: Undo Edit Twist Limit
+[2017.03.29-02.03.43:629][536]Cmd: TRANSACTION UNDO
+[2017.03.29-02.03.43:629][536]LogEditorTransaction: Undo Edit Twist Motion
+[2017.03.29-02.03.45:093][637]Cmd: TRANSACTION UNDO
+[2017.03.29-02.03.45:093][637]LogEditorTransaction: Undo Edit Twist Motion
+[2017.03.29-02.03.46:335][722]Cmd: TRANSACTION UNDO
+[2017.03.29-02.03.46:335][722]LogEditorTransaction: Undo Move Element
+[2017.03.29-02.06.00:160][ 75]Cmd: TRANSACTION UNDO
+[2017.03.29-02.06.00:160][ 75]LogEditorTransaction: Undo Move Element
+[2017.03.29-02.11.29:922][393]LogSavePackage: Save=13.05ms
+[2017.03.29-02.11.29:922][393]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/SK_Mannequin_Physics4FE5B1F44DC917428F747A8C63E6F498.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/Mannequin/Character/Mesh/SK_Mannequin_Physics.uasset'
+[2017.03.29-02.11.29:926][393]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/Mannequin/Character/Mesh/SK_Mannequin_Physics.uasset
+[2017.03.29-02.16.30:602][904]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.016
+[2017.03.29-02.16.30:604][904]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics] ([1] browsable assets)...
+[2017.03.29-02.16.30:604][904]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics]
+[2017.03.29-02.16.30:627][904]LogSavePackage: Save=13.42ms
+[2017.03.29-02.16.30:627][904]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/SK_Mannequin_Physics_Auto6BA97320149BBD15D43963B8160C59DFA.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto6.uasset'
+[2017.03.29-02.16.30:628][904]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto6.uasset
+[2017.03.29-02.16.30:629][904]LogFileHelpers: Auto-saving content packages took 0.025
+[2017.03.29-02.20.50:992][555]Cmd: TRANSACTION UNDO
+[2017.03.29-02.20.50:992][555]LogEditorTransaction: Undo Move Element
+[2017.03.29-02.35.33:854][634]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.016
+[2017.03.29-02.35.33:855][634]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics] ([1] browsable assets)...
+[2017.03.29-02.35.33:855][634]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics]
+[2017.03.29-02.35.33:890][634]LogSavePackage: Save=14.01ms
+[2017.03.29-02.35.33:890][634]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/SK_Mannequin_Physics_Auto78F0848324AA7D1427F361C8F98B3F218.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto7.uasset'
+[2017.03.29-02.35.33:892][634]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto7.uasset
+[2017.03.29-02.35.33:892][634]LogFileHelpers: Auto-saving content packages took 0.037
+[2017.03.29-02.46.37:957][832]Cmd: TRANSACTION UNDO
+[2017.03.29-02.46.37:957][832]LogEditorTransaction: Undo Move Constraint
+[2017.03.29-02.47.07:658][924]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.014
+[2017.03.29-02.47.07:660][924]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics] ([1] browsable assets)...
+[2017.03.29-02.47.07:660][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics]
+[2017.03.29-02.47.07:685][924]LogSavePackage: Save=14.98ms
+[2017.03.29-02.47.07:685][924]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/SK_Mannequin_Physics_Auto8DE5263A6464D1D248BFBF4A47DD689E5.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto8.uasset'
+[2017.03.29-02.47.07:686][924]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto8.uasset
+[2017.03.29-02.47.07:687][924]LogFileHelpers: Auto-saving content packages took 0.027
+[2017.03.29-04.47.18:859][252]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.018
+[2017.03.29-04.47.18:862][252]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics] ([1] browsable assets)...
+[2017.03.29-04.47.18:862][252]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics]
+[2017.03.29-04.47.18:887][252]LogSavePackage: Save=16.54ms
+[2017.03.29-04.47.18:887][252]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/SK_Mannequin_Physics_Auto9680260C74F5296F5F1FA4D8C94E896A3.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto9.uasset'
+[2017.03.29-04.47.18:889][252]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto9.uasset
+[2017.03.29-04.47.18:889][252]LogFileHelpers: Auto-saving content packages took 0.028
+[2017.03.29-04.57.18:983][564]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.015
+[2017.03.29-04.57.18:985][564]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics] ([1] browsable assets)...
+[2017.03.29-04.57.18:985][564]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics]
+[2017.03.29-04.57.19:008][564]LogSavePackage: Save=15.15ms
+[2017.03.29-04.57.19:008][564]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/SK_Mannequin_Physics_Auto0A2B7DD8D4096C1FF744CD9A280D6412A.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto0.uasset'
+[2017.03.29-04.57.19:009][564]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_Physics_Auto0.uasset
+[2017.03.29-04.57.19:010][564]LogFileHelpers: Auto-saving content packages took 0.026
+[2017.03.29-05.00.27:363][493]LogSavePackage: Save=14.73ms
+[2017.03.29-05.00.27:363][493]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/SK_Mannequin_PhysicsA4EDEF6D43513169F37453B1DFBD7220.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/Mannequin/Character/Mesh/SK_Mannequin_Physics.uasset'
+[2017.03.29-05.00.27:368][493]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/Mannequin/Character/Mesh/SK_Mannequin_Physics.uasset
+[2017.03.29-05.01.06:679][916]LogSavePackage: Save=18.23ms
+[2017.03.29-05.01.06:679][916]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/SK_MyMannequinPhysics0867F13042CF47F11C26489095E9D5DD.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/Mannequin/Character/Mesh/SK_MyMannequinPhysics.uasset'
+[2017.03.29-05.01.06:688][916]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/Mannequin/Character/Mesh/SK_MyMannequinPhysics.uasset
+[2017.03.29-05.01.18:295][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SK_MyMannequinPhysics" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/SK_MyMannequinPhysics.uasset" SILENT=true
+[2017.03.29-05.01.18:314][185]LogSavePackage: Save=17.37ms
+[2017.03.29-05.01.18:314][185]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/SK_MyMannequinPhysics1705A3B64FED880FBD740C804D784023.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/SK_MyMannequinPhysics.uasset'
+[2017.03.29-05.01.18:318][185]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/SK_MyMannequinPhysics.uasset
+[2017.03.29-05.01.34:547][982]LogSavePackage: Save=184.69ms
+[2017.03.29-05.01.34:547][982]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/ThirdPersonExampleMap4BA67080445FF990D59503AF9DEDE7C8.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.29-05.01.34:550][982]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.29-05.01.34:903][982]LogSavePackage: Save=195.08ms
+[2017.03.29-05.01.34:903][982]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/ThirdPersonExampleMap_BuiltData3D4FB1974A94F05E063E7C8C3823AE28.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.03.29-05.01.34:905][982]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.03.29-05.26.34:986][789]Cmd: QUIT_EDITOR
+[2017.03.29-05.26.35:285][789]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.29-05.26.35:368][789]LogExit: Preparing to exit.
+[2017.03.29-05.26.37:469][789]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/' was aborted.
+[2017.03.29-05.26.39:375][789]LogExit: Editor shut down
+[2017.03.29-05.26.39:376][789]LogExit: Transaction tracking system shut down
+[2017.03.29-05.26.41:090][789]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.29-05.26.41:091][789]LogExit: Object subsystem successfully closed.
+[2017.03.29-05.26.41:341][789]LogD3D11RHI: Shutdown
+[2017.03.29-05.26.41:341][789]LogD3D11RHI: CleanupD3DDevice
+[2017.03.29-05.26.41:559][789]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.29-05.26.42:020][789]LogModuleManager: Shutting down and abandoning module PhAT (500)
+[2017.03.29-05.26.42:020][789]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.03.29-05.26.42:020][789]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.03.29-05.26.42:020][789]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.03.29-05.26.42:020][789]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.03.29-05.26.42:024][789]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.03.29-05.26.42:045][789]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.03.29-05.26.42:045][789]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.03.29-05.26.42:045][789]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.03.29-05.26.42:064][789]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/Collections/' was aborted.
+[2017.03.29-05.26.42:064][789]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/Developers/Liam/Collections/' was aborted.
+[2017.03.29-05.26.42:064][789]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/IntroPHAT/Saved/Collections/' was aborted.
+[2017.03.29-05.26.42:064][789]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.03.29-05.26.42:065][789]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.03.29-05.26.42:065][789]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.03.29-05.26.42:065][789]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.03.29-05.26.42:065][789]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.03.29-05.26.42:065][789]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.03.29-05.26.42:065][789]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.03.29-05.26.42:065][789]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.03.29-05.26.42:069][789]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.03.29-05.26.42:076][789]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.03.29-05.26.42:080][789]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.03.29-05.26.42:085][789]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.03.29-05.26.42:087][789]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.03.29-05.26.42:124][789]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.03.29-05.26.42:124][789]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.03.29-05.26.42:124][789]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.03.29-05.26.42:124][789]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.03.29-05.26.42:124][789]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.03.29-05.26.42:124][789]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.03.29-05.26.42:124][789]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.03.29-05.26.42:124][789]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.03.29-05.26.42:124][789]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.03.29-05.26.42:124][789]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.03.29-05.26.42:124][789]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.03.29-05.26.42:125][789]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.03.29-05.26.42:129][789]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.03.29-05.26.42:153][789]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.03.29-05.26.42:153][789]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.03.29-05.26.42:153][789]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.03.29-05.26.42:153][789]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.03.29-05.26.42:153][789]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.03.29-05.26.42:166][789]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.03.29-05.26.42:174][789]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.03.29-05.26.42:197][789]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.03.29-05.26.42:197][789]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.03.29-05.26.42:197][789]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.03.29-05.26.42:197][789]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.03.29-05.26.42:201][789]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.03.29-05.26.42:772][789]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.03.29-05.26.42:772][789]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.03.29-05.26.42:772][789]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.03.29-05.26.42:773][789]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.03.29-05.26.42:802][789]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.03.29-05.26.42:812][789]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.03.29-05.26.42:816][789]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.03.29-05.26.42:816][789]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.03.29-05.26.42:816][789]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.03.29-05.26.42:829][789]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.03.29-05.26.42:845][789]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.03.29-05.26.42:845][789]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.03.29-05.26.42:852][789]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.03.29-05.26.42:852][789]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.03.29-05.26.42:852][789]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.03.29-05.26.42:871][789]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.03.29-05.26.42:875][789]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.03.29-05.26.42:875][789]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.03.29-05.26.42:875][789]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.03.29-05.26.42:875][789]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.03.29-05.26.42:904][789]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.03.29-05.26.42:919][789]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.03.29-05.26.42:930][789]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.03.29-05.26.42:943][789]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.03.29-05.26.42:965][789]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.03.29-05.26.43:008][789]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.03.29-05.26.43:040][789]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.03.29-05.26.43:062][789]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.03.29-05.26.43:114][789]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.03.29-05.26.43:114][789]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.03.29-05.26.43:119][789]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.03.29-05.26.43:127][789]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.03.29-05.26.43:142][789]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.03.29-05.26.43:142][789]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.03.29-05.26.43:152][789]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.03.29-05.26.43:204][789]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.03.29-05.26.43:213][789]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.03.29-05.26.43:216][789]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.03.29-05.26.43:235][789]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.03.29-05.26.43:244][789]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.03.29-05.26.43:252][789]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.03.29-05.26.43:259][789]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.03.29-05.26.43:259][789]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.03.29-05.26.43:259][789]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.03.29-05.26.43:259][789]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.03.29-05.26.43:259][789]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.03.29-05.26.43:259][789]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.03.29-05.26.43:259][789]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.03.29-05.26.43:259][789]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.03.29-05.26.43:259][789]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.03.29-05.26.43:264][789]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.03.29-05.26.43:264][789]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.03.29-05.26.43:368][789]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.03.29-05.26.43:411][789]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.03.29-05.26.43:411][789]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.03.29-05.26.43:411][789]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.03.29-05.26.43:411][789]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.03.29-05.26.43:418][789]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.03.29-05.26.43:418][789]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.03.29-05.26.43:418][789]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.03.29-05.26.43:418][789]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.03.29-05.26.43:418][789]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.03.29-05.26.43:426][789]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.03.29-05.26.43:426][789]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.03.29-05.26.43:481][789]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.03.29-05.26.43:481][789]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.03.29-05.26.43:484][789]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.03.29-05.26.43:485][789]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.03.29-05.26.43:491][789]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.03.29-05.26.43:491][789]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.03.29-05.26.43:491][789]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.03.29-05.26.43:491][789]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.03.29-05.26.43:491][789]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.03.29-05.26.43:510][789]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.03.29-05.26.43:510][789]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.03.29-05.26.43:510][789]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.03.29-05.26.43:510][789]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.03.29-05.26.43:510][789]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.03.29-05.26.43:510][789]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.03.29-05.26.43:516][789]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.03.29-05.26.43:542][789]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.03.29-05.26.43:548][789]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.03.29-05.26.43:553][789]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.03.29-05.26.43:553][789]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.03.29-05.26.43:553][789]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.03.29-05.26.43:553][789]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.03.29-05.26.43:569][789]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.03.29-05.26.43:577][789]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.03.29-05.26.43:595][789]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.03.29-05.26.43:626][789]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.03.29-05.26.43:626][789]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.03.29-05.26.43:633][789]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.03.29-05.26.43:636][789]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.03.29-05.26.43:638][789]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.03.29-05.26.43:638][789]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.03.29-05.26.43:638][789]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.03.29-05.26.43:739][789]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.03.29-05.26.43:842][789]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.03.29-05.26.43:914][789]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.03.29-05.26.43:967][789]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.03.29-05.26.43:967][789]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.03.29-05.26.43:967][789]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.03.29-05.26.43:976][789]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.03.29-05.26.44:006][789]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.03.29-05.26.44:018][789]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.03.29-05.26.44:018][789]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.03.29-05.26.44:018][789]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.03.29-05.26.44:032][789]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.03.29-05.26.44:032][789]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.03.29-05.26.44:032][789]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.03.29-05.26.44:143][789]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.03.29-05.26.44:154][789]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.03.29-05.26.44:176][789]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.03.29-05.26.44:218][789]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.03.29-05.26.44:305][789]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.03.29-05.26.44:365][789]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.03.29-05.26.44:444][789]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.03.29-05.26.44:444][789]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.03.29-05.26.44:444][789]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.03.29-05.26.44:598][789]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.03.29-05.26.44:598][789]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.03.29-05.26.44:604][789]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.03.29-05.26.44:623][789]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.03.29-05.26.44:623][789]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.03.29-05.26.44:623][789]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.03.29-05.26.44:623][789]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.03.29-05.26.44:623][789]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.03.29-05.26.44:787][789]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.29-05.26.44:787][789]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Liam/Documents/Unreal Projects/IntroPHAT/Content/' was aborted.
+[2017.03.29-05.26.44:787][789]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.29-05.26.44:802][789]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.03.29-05.26.44:808][789]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.03.29-05.26.44:808][789]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.03.29-05.26.44:808][789]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.03.29-05.26.44:886][789]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.03.29-05.26.44:904][789]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.03.29-05.26.44:904][789]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.03.29-05.26.44:918][789]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.03.29-05.26.44:919][789]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.03.29-05.26.45:018][789]LogDerivedDataCache: Shutdown
+[2017.03.29-05.26.45:018][789]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.03.29-05.26.45:018][789]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.03.29-05.26.45:040][789]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.03.29-05.26.45:088][789]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.03.29-05.26.45:098][789]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.03.29-05.26.45:185][789]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.03.29-05.26.45:185][789]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.03.29-05.26.45:185][789]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.03.29-05.26.45:209][789]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.03.29-05.26.45:244][789]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.03.29-05.26.45:244][789]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.03.29-05.26.45:244][789]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.03.29-05.26.45:244][789]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.03.29-05.26.45:267][789]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.03.29-05.26.45:267][789]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.03.29-05.26.45:267][789]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.03.29-05.26.45:267][789]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.03.29-05.26.45:267][789]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.03.29-05.26.45:267][789]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.03.29-05.26.45:267][789]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.03.29-05.26.45:267][789]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.03.29-05.26.45:267][789]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.03.29-05.26.45:267][789]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.03.29-05.26.45:267][789]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.03.29-05.26.45:267][789]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.03.29-05.26.45:268][789]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.03.29-05.26.45:268][789]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.03.29-05.26.45:268][789]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.03.29-05.26.45:268][789]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.03.29-05.26.45:268][789]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.03.29-05.26.45:268][789]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.03.29-05.26.45:268][789]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.03.29-05.26.45:268][789]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.03.29-05.26.45:268][789]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.03.29-05.26.45:268][789]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.03.29-05.26.45:268][789]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.03.29-05.26.45:268][789]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.03.29-05.26.45:268][789]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.03.29-05.26.45:268][789]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.03.29-05.26.45:268][789]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.03.29-05.26.45:268][789]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.03.29-05.26.45:268][789]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.03.29-05.26.45:268][789]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.03.29-05.26.45:283][789]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.03.29-05.26.45:283][789]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.03.29-05.26.45:283][789]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.03.29-05.26.45:283][789]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.03.29-05.26.45:283][789]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.29-05.26.45:309][789]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.03.29-05.26.45:343][789]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.03.29-05.26.45:354][789]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.29-05.26.45:354][789]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDDD0A8E3-4990-8751-DFC2-8BA68C830755%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=3c53aeb14f8381cf589af9a05a045162%7C191bcd9e71e141a7a207a951597e632a%7C6892023d-28ec-4f87-8958-26e7706dbce6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.29-05.26.45:383][789]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.03.29-05.26.45:397][789]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.03.29-05.26.45:418][789]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.03.29-05.26.45:480][789]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.03.29-05.26.45:480][789]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.03.29-05.26.45:480][789]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.03.29-05.26.45:544][789]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.03.29-05.26.45:585][789]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.03.29-05.26.45:585][789]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.03.29-05.26.45:605][789]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.03.29-05.26.45:605][789]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.03.29-05.26.45:605][789]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.03.29-05.26.45:605][789]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.03.29-05.26.45:638][789]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.03.29-05.26.45:682][789]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.03.29-05.26.45:682][789]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.03.29-05.26.45:737][789]LogExit: Exiting.
+[2017.03.29-05.26.45:823][789]Log file closed, 03/28/17 22:26:45
